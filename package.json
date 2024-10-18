@@ -10,17 +10,27 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/eslint": "^0.6.0",
+    "@formkit/auto-animate": "^0.8.2",
+    "@nuxt/image": "^1.8.1",
+    "@nuxtjs/color-mode": "^3.5.1",
     "@nuxtjs/tailwindcss": "^6.12.2",
+    "@pinia/nuxt": "^0.5.5",
     "@primevue/themes": "^4.1.1",
+    "@vueuse/nuxt": "^11.1.0",
     "nuxt": "^3.13.0",
     "primeicons": "^7.0.0",
     "primevue": "^4.1.1",
-    "tailwindcss-primeui": "^0.3.4",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
-    "@primevue/nuxt-module": "^4.1.1"
+    "@nuxt/devtools": "^1.6.0",
+    "@nuxt/eslint": "^0.6.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@primevue/nuxt-module": "^4.1.1",
+    "tailwindcss-primeui": "^0.3.4"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }
