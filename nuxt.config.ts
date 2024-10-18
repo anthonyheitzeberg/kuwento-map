@@ -1,13 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import Aura from '@primevue/themes/lara';
+import Aura from '@primevue/themes/lara'
 
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
-  css: [
-    'primeicons/primeicons.css'
+  modules: [
+    '@primevue/nuxt-module',
+    '@nuxtjs/tailwindcss',
+    '@nuxt/eslint',
   ],
   devtools: { enabled: true },
-  modules: ['@primevue/nuxt-module', '@nuxtjs/tailwindcss'],
+  css: [
+    'primeicons/primeicons.css',
+  ],
+  compatibilityDate: '2024-04-03',
   primevue: {
     options: {
       ripple: true,
@@ -16,5 +20,5 @@ export default defineNuxtConfig({
         preset: Aura,
       },
     },
-  }
+  },
 })

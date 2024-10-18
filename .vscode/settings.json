@@ -1,9 +1,15 @@
 {
-    "editor.formatOnSave": true,
-    "editor.quickSuggestions": {
-        "strings": "on"
-    },
-    "files.associations": {
-        "*.css": "tailwindcss"
-    }
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
